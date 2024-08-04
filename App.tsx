@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, TextInput, TouchableOpacity, View, FlatList, SafeAreaView } from "react-native";
 
-// Replace with your actual Gemini API key
-const GEMINI_API_KEY = "AIzaSyC0CdjE6V5ELvOMMZHy03pkxbJYWeeC6Oc";
+// AIzaSyC0CdjE6V5ELvOMMZHy03pkxbJYWeeC6Oc
+const GEMINI_API_KEY = "Replace with your actual Gemini API key";
 
 // Define message type with strict sender values
 type Message = {
