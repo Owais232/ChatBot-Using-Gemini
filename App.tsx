@@ -78,7 +78,8 @@ const App = () => {
         renderItem={renderItem}
         keyExtractor={(item, index) => index.toString()}
         contentContainerStyle={styles.messagesContainer}
-        inverted // To make sure new messages appear at the top
+        inverted // To make sure newzxczcjzc zsdas dasd asd asda s
+        
       />
       <View style={styles.inputView}>
         <TextInput
@@ -86,7 +87,7 @@ const App = () => {
           placeholder="Enter Your Query...."
           value={msg}
           onChangeText={messageSave}
-          placeholderTextColor="black"
+          placeholderTextColor="black"//fdsfsdfsfasd
         />
         <TouchableOpacity style={styles.button} onPress={handleButtonClick}>
           <Text style={styles.buttonText}>Send</Text>
